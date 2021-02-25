@@ -20,8 +20,8 @@ ui <- fluidPage(
          p("This website will be to help planners assess potential windfarm development
            areas in Cumbria, and achieve a ", strong("balance "), "between different",
            em("interest groups"), "and other users."),
-         br(),
          img(src=wfarm),
+         br(),
          plotOutput(outputId = "habitats_plot")
       )
    )
@@ -35,4 +35,4 @@ server <- function(input, output) {
 }
 
 # Run the app ----
-shinyApp(ui = ui, server = server)
+shinyApp(ui = ui, server = server, display.mode="showcase")
