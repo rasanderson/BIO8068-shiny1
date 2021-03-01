@@ -10,7 +10,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Shiny is a package that automatically converts R code into a form suitable to produce dynamic websites in which the user can interact with graphs, model outputs etc.  The style of programming is different to conventional R, in that it is 'reactive'.  This means that the order in which commands are executed depend on user interaction, rather than being pre-defined from the outset.  Whilst this makes writing the software harder, and debugging trickier, the dynamic approach can be an excellent method of engaging the end-user, especially policy-makers, in the decision-process.
+Shiny is a package that automatically converts R code into a form suitable to produce dynamic websites in which the user can interact with graphs, model outputs etc.  The style of programming is different to conventional R, in that it is 'reactive'. This means that the order in which commands are executed depend on user interaction, rather than being pre-defined from the outset.  Whilst this makes writing the software harder, and debugging trickier, the dynamic approach can be an excellent method of engaging the end-user, especially policy-makers, in the decision-process.
 
 # Resources
 There are a large number of very good online tutorials for Shiny, both video-based and printed materials.  Look at:
